@@ -1,0 +1,11 @@
+{
+  "displayName": "Raycast Target Visualization Tool",
+  "name": "com.antonovdv.raycast-target-visualization-tool",
+  "version": "1.0.0",
+  "unity": "2022.1",
+  "description": "Show raycast target property",
+  "author": {
+    "name": "Dmitry Antonov",
+    "email": "antonovdvrus@gmail.com"
+  }
+}
