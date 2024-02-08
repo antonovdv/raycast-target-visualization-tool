@@ -13,7 +13,7 @@ namespace RaycastTargetVisualizationTool.Editor
         private GUIContent _iconContent;
         private Graphic[] _graphics = Array.Empty<Graphic>();
 
-        public override GUIContent toolbarIcon => _iconContent ??= EditorGUIUtility.IconContent("FreeformLayoutGroup Icon", "Show Raycast Target");
+        public override GUIContent toolbarIcon => _iconContent ??= EditorGUIUtility.IconContent("FreeformLayoutGroup Icon");
 
         public override void OnActivated()
         {
@@ -37,7 +37,6 @@ namespace RaycastTargetVisualizationTool.Editor
                     rectTransform.GetWorldCorners(corners);
                     var color = GetRandomColorByInstanceId(rectTransform.GetInstanceID());
                     Handles.DrawSolidRectangleWithOutline(corners, color, new Color(color.r, color.g, color.b, 1f));
-                
                 }
             }
         }
@@ -49,7 +48,7 @@ namespace RaycastTargetVisualizationTool.Editor
             float r = Random.value;
             float g = Random.value;
             float b = Random.value;
-            float a = 0.6f;
+            float a = 0.5f;
 
             return new Color(r, g, b, a);
         }
