@@ -1,11 +1,15 @@
 {
   "displayName": "Raycast Target Visualization Tool",
   "name": "com.antonovdv.raycast-target-visualization-tool",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "unity": "2022.1",
-  "description": "Show raycast target property",
+  "description": "Every unnecessary enabled raycast target reduce performance. This tool displays all enabled raycast targets, allowing better control over Canvas component settings",
   "author": {
     "name": "Dmitry Antonov",
     "email": "antonovdvrus@gmail.com"
-  }
+  },
+  "changelogUrl": "https://github.com/antonovdv/raycast-target-visualization-tool/blob/master/CHANGELOG.md",
+  "documentationUrl": "https://github.com/antonovdv/raycast-target-visualization-tool",
+  "licensesUrl": "https://github.com/antonovdv/raycast-target-visualization-tool/blob/master/LICENSE.md",
+  "keywords": ["editor", "tools", "raycast target"]  
 }
